@@ -56,3 +56,8 @@ body::-webkit-scrollbar-thumb {
 * {
   overflow-x: hidden;
 }
+
+.selectedNavbarOption {
+  color: white;
+  background-color: #9f1239;
+}
