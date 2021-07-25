@@ -12,6 +12,7 @@ const Signup = () => {
             <p className="leading-relaxed mt-4">
               Know who you share your birthday with and celebrate with them! 🥳
             </p>
+            <p className="leading-relaxed mt-4">Get started quickly!!</p>
           </div>
           <div className="lg:w-2/6 md:w-1/2 bg-red-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
             <h2 className="text-rose-900 text-lg font-bold title-font mb-5">
