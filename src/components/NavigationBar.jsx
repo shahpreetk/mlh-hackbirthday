@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 const navigation = [
   { name: "Profile", href: "/profile" },
   { name: "Birthday Twin", href: "/my-birthday-twin" },
-  { name: "Logout", href: "/", current: false },
 ];
 
 function classNames(...classes) {
@@ -33,18 +32,13 @@ const NavigationBar = () => {
                   {item.name}
                 </NavLink>
               ))}
+              <a
+                href="/"
+                className="text-white hover:bg-rose-200 hover:text-rose-800 px-3 py-2 rounded-md text-md font-medium mr-5"
+              >
+                Logout
+              </a>
             </div>
-            {/* <div className="flex space-x-4"> */}
-            {/* <NavLink
-              key="logout"
-              to="/"
-              className="text-white hover:bg-rose-200 hover:text-rose-800
-                  px-3 py-2 rounded-md text-md font-medium mr-5"
-              aria-current="page"
-            >
-              Logout
-            </NavLink> */}
-            {/* </div> */}
           </nav>
         </div>
       </header>
