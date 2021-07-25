@@ -25,6 +25,26 @@ const Profile = () => {
                     <div className="grid grid-cols-3 gap-6">
                       <div className="col-span-3 sm:col-span-2">
                         <label
+                          htmlFor="date"
+                          className="block text-sm font-medium text-gray-700"
+                        >
+                          Date of Birth
+                        </label>
+                        <div className="mt-1 flex rounded-md shadow-sm">
+                          <input
+                            type="date"
+                            name="date"
+                            id="date"
+                            className="focus:ring-rose-500 focus:border-rose-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300"
+                            placeholder="utk0909"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-3 gap-6">
+                      <div className="col-span-3 sm:col-span-2">
+                        <label
                           htmlFor="company-website"
                           className="block text-sm font-medium text-gray-700"
                         >

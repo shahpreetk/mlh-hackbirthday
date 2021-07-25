@@ -25,9 +25,10 @@ const BirthdayTwin = () => {
                   />
                 </div>
                 <div className="flex-grow">
-                  <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+                  <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
                     Full Name
                   </h2>
+                  <p className="text-gray-400 text-sm mb-2">Age: 25</p>
                   <p className="leading-relaxed text-base">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Saepe totam magnam recusandae iste consectetur.
@@ -59,9 +60,10 @@ const BirthdayTwin = () => {
                   />
                 </div>
                 <div className="flex-grow">
-                  <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
+                  <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
                     Shooting Stars
                   </h2>
+                  <p className="text-gray-400 text-sm mb-2">Age: 40</p>
                   <p className="leading-relaxed text-base">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Saepe totam magnam recusandae iste consectetur.
