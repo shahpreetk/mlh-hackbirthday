@@ -7,14 +7,10 @@ const Signup = () => {
         <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
           <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
             <h1 className="title-font font-medium text-3xl text-gray-900">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-              officia!
+              Birthday Twin! 👯
             </h1>
             <p className="leading-relaxed mt-4">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam,
-              quos non! Doloremque corrupti impedit nulla delectus. Debitis quos
-              porro voluptatum cupiditate vel harum accusamus. Quas, asperiores!
-              Quisquam molestiae dolorum animi?
+              Know who you share your birthday with and celebrate with them! 🥳
             </p>
           </div>
           <div className="lg:w-2/6 md:w-1/2 bg-red-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">

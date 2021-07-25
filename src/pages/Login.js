@@ -10,7 +10,7 @@ const Login = () => {
               Birthday Twin! 👯
             </h1>
             <p className="leading-relaxed mt-4">
-              Know who you share your birthday with and connect with them!
+              Know who you share your birthday with and celebrate with them! 🥳
             </p>
           </div>
           <div className="lg:w-2/6 md:w-1/2 bg-red-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
