@@ -1,8 +1,11 @@
+import NavigationBar from "../components/NavigationBar";
+
 const Profile = () => {
   return (
-    <div>
+    <>
+      <NavigationBar />
       <h1>Profile Page</h1>
-    </div>
+    </>
   );
 };
 

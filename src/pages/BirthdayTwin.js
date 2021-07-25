@@ -1,8 +1,11 @@
+import NavigationBar from "../components/NavigationBar";
+
 const BirthdayTwin = () => {
   return (
-    <div>
+    <>
+      <NavigationBar />
       <h1>Birthday Twin</h1>
-    </div>
+    </>
   );
 };
 
