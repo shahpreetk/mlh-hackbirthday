@@ -1,3 +1,4 @@
+// @ts-check
 import NavigationBar from "../components/NavigationBar";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaEnvelope } from "react-icons/fa";

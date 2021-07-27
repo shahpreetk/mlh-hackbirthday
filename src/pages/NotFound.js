@@ -1,3 +1,4 @@
+// @ts-check
 import NavigationBar from "../components/NavigationBar";
 
 const NotFound = () => {

@@ -1,3 +1,4 @@
+// @ts-check
 import { NavLink } from "react-router-dom";
 const navigation = [
   { name: "Profile", href: "/profile" },
