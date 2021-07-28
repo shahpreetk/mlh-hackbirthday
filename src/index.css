@@ -61,3 +61,12 @@ body::-webkit-scrollbar-thumb {
   color: white;
   background-color: #9f1239;
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: #fff1f2;
+}
+
+::selection {
+  background: #fff1f2;
+}
