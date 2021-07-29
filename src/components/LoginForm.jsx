@@ -11,7 +11,7 @@ const LoginForm = () => {
               <img
                 className="h-auto w-auto"
                 src="/assets/cake_Flags_noBg.png"
-                alt="Workflow"
+                alt="Birthday Twin Logo"
               />
               <h2 className="mt-6 text-3xl font-medium text-gray-900">
                 Login to meet your{' '}
@@ -28,7 +28,7 @@ const LoginForm = () => {
                     <div>
                       <a
                         href="/"
-                        className="w-full inline-flex justify-center py-2 px-4 border border-none rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-white"
+                        className="w-full inline-flex justify-center py-2 px-4 border border-none rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-rose-50"
                       >
                         <span className="sr-only">Sign in with Google</span>
                         <img src="/assets/sign_in_with_google.png" alt="Sign In with Google" />
@@ -114,7 +114,7 @@ const LoginForm = () => {
             loading="lazy"
             className="absolute inset-0 h-full w-full object-cover"
             src="https://images.unsplash.com/photo-1617393992486-fa01f9ae0524"
-            alt=""
+            alt="birthday twin cake"
           />
         </div>
       </div>
