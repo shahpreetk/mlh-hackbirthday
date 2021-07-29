@@ -5,7 +5,7 @@ const LoginForm = () => {
   return (
     <>
       <div className="min-h-screen bg-white flex">
-        <div className="flex-1 flex flex-col justify-center py-10 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
+        <div className="flex-1 flex flex-col justify-center py-5 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
           <div className="mx-auto w-full max-w-sm lg:w-96">
             <div>
               <img
@@ -13,7 +13,7 @@ const LoginForm = () => {
                 src="/assets/cake_Flags_noBg.png"
                 alt="Birthday Twin Logo"
               />
-              <h2 className="mt-6 text-3xl font-medium text-gray-900">
+              <h2 className="mt-6 text-3xl font-semibold text-gray-900">
                 Login to meet your{' '}
                 <span className="font-extrabold text-rose-600">
                   Birthday Twin!
@@ -34,7 +34,6 @@ const LoginForm = () => {
                         <img src="/assets/sign_in_with_google.png" alt="Sign In with Google" />
                       </a>
                     </div>
-
                   </div>
                 </div>
 
@@ -98,7 +97,7 @@ const LoginForm = () => {
                       Sign in
                     </button>
                     <div className="text-md mt-4">
-                      Don't have an Account?{" "}
+                      Don't have an account?{" "}
                       <Link to="/signup" className="underline font-medium text-sky-700 hover:text-sky-900">
                         Sign Up instead!
                       </Link>
