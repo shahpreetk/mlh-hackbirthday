@@ -13,8 +13,11 @@ const LoginForm = () => {
                 src="/assets/cake_Flags_noBg.png"
                 alt="Workflow"
               />
-              <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
-                Sign in to your account
+              <h2 className="mt-6 text-3xl font-medium text-gray-900">
+                Login to meet your{' '}
+                <span className="font-extrabold text-rose-600">
+                  Birthday Twin!
+                </span>
               </h2>
             </div>
 
@@ -107,8 +110,8 @@ const LoginForm = () => {
           </div>
         </div>
         <div className="hidden lg:block relative w-0 flex-1">
-          <img className="transform rotate-90 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 ::before" src="/assets/wave.png" alt="wave" />
           <img
+            loading="lazy"
             className="absolute inset-0 h-full w-full object-cover"
             src="https://images.unsplash.com/photo-1617393992486-fa01f9ae0524"
             alt=""
@@ -120,49 +123,3 @@ const LoginForm = () => {
 };
 
 export default LoginForm;
-
-
-// <div className="lg:w-2/6 md:w-1/2 bg-red-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-//         <h2 className="text-rose-900 text-lg font-bold title-font mb-5">
-//           Login 🎉
-//         </h2>
-//         <div className="relative mb-4">
-//           <label
-//             htmlFor="email"
-//             className="leading-7 text-sm text-gray-800"
-//           >
-//             Email
-//           </label>
-//           <input
-//             type="email"
-//             id="email"
-//             name="email"
-//             className="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-//           />
-//         </div>
-//         <div className="relative mb-4">
-//           <label
-//             htmlFor="password"
-//             className="leading-7 text-sm text-gray-800"
-//           >
-//             Password
-//           </label>
-//           <input
-//             type="password"
-//             id="password"
-//             name="password"
-//             className="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-//           />
-//         </div>
-//         <Link to="/profile">
-//           <button className="text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">
-//             Login
-//           </button>
-//         </Link>
-//         <p className="text-sm text-gray-600 mt-3">
-//           Don't have an account?{" "}
-//           <span className="underline text-red-600 hover:text-red-800">
-//             <Link to="/signup">Sign Up</Link>
-//           </span>
-//         </p>
-//       </div> */}
