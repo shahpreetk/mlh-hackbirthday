@@ -14,7 +14,7 @@ const LoginForm = () => {
                 alt="Birthday Twin Logo"
               />
               <h2 className="mt-6 text-3xl font-semibold text-gray-900">
-                Login to meet your{' '}
+                Login to meet your{" "}
                 <span className="font-extrabold text-rose-600">
                   Birthday Twin!
                 </span>
