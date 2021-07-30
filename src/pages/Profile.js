@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <>
       <NavigationBar />
-      <div className="flex flex-wrap flex-col lg:flex-row m-4 p-4">
+      <div className="flex flex-wrap flex-col md:flex-row m-4 p-4">
         <div className="mx-auto sm:px-6 lg:px-8">
           <div className="mt-5 md:mt-0 md:col-span-2">
             <form className="space-y-8 divide-y divide-gray-200">
@@ -31,7 +31,7 @@ const Profile = () => {
                       </label>
                       <div className="mt-1 flex rounded-md shadow-sm">
                         <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 sm:text-sm">
-                          twitter
+                          twitter.com/
                         </span>
                         <input
                           type="text"
