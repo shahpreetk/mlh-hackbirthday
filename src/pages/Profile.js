@@ -1,13 +1,12 @@
 // @ts-check
 import NavigationBar from "../components/NavigationBar";
-import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
     <>
       <NavigationBar />
-      <div className="flex flex-wrap flex-col md:flex-row m-4 p-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="flex flex-wrap flex-col lg:flex-row m-4 p-4">
+        <div className="mx-auto sm:px-6 lg:px-8">
           <div className="mt-5 md:mt-0 md:col-span-2">
             <form className="space-y-8 divide-y divide-gray-200">
               <div className="space-y-8 divide-y divide-gray-200">
@@ -39,7 +38,7 @@ const Profile = () => {
                           name="username"
                           id="username"
                           autoComplete="username"
-                          className="flex-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300"
+                          className="flex-1 focus:ring-rose-500 focus:border-rose-500 block w-full min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300"
                         />
                       </div>
                     </div>
@@ -56,7 +55,7 @@ const Profile = () => {
                           id="about"
                           name="about"
                           rows={3}
-                          className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
+                          className="shadow-sm focus:ring-rose-500 focus:border-rose-500 block w-full sm:text-sm border-gray-300 rounded-md"
                           defaultValue={""}
                         />
                       </div>
@@ -84,7 +83,7 @@ const Profile = () => {
                         </span>
                         <button
                           type="button"
-                          className="ml-5 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                          className="ml-5 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500"
                         >
                           Change
                         </button>
@@ -117,7 +116,7 @@ const Profile = () => {
                           <div className="flex text-sm text-gray-600">
                             <label
                               htmlFor="file-upload"
-                              className="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                              className="relative cursor-pointer bg-white rounded-md font-medium text-rose-600 hover:text-rose-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-rose-500"
                             >
                               <span>Upload a file</span>
                               <input
@@ -161,7 +160,7 @@ const Profile = () => {
                           name="first_name"
                           id="first_name"
                           autoComplete="given-name"
-                          className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
+                          className="shadow-sm focus:ring-rose-500 focus:border-rose-500 block w-full sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
                     </div>
@@ -179,7 +178,7 @@ const Profile = () => {
                           name="last_name"
                           id="last_name"
                           autoComplete="family-name"
-                          className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
+                          className="shadow-sm focus:ring-rose-500 focus:border-rose-500 block w-full sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
                     </div>
@@ -197,7 +196,7 @@ const Profile = () => {
                           name="email"
                           type="email"
                           autoComplete="email"
-                          className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
+                          className="shadow-sm focus:ring-rose-500 focus:border-rose-500 block w-full sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
                     </div>
@@ -209,13 +208,13 @@ const Profile = () => {
                 <div className="flex justify-end">
                   <button
                     type="button"
-                    className="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500"
                   >
                     Cancel
                   </button>
                   <button
                     type="submit"
-                    className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500"
                   >
                     Save
                   </button>
