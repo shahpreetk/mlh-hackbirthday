@@ -78,7 +78,7 @@ const NavigationBar = () => {
               </div>
               <div className="flex lg:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-rose-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -99,7 +99,7 @@ const NavigationBar = () => {
                     {({ open }) => (
                       <>
                         <div>
-                          <Menu.Button className="bg-gray-800 rounded-full flex text-sm text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                          <Menu.Button className="bg-rose-800 rounded-full flex text-sm text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                             <span className="sr-only">Open user menu</span>
                             <img
                               className="h-8 w-8 rounded-full"
@@ -128,7 +128,7 @@ const NavigationBar = () => {
                                   href="/"
                                   className={classNames(
                                     active ? 'bg-gray-100' : '',
-                                    'block px-4 py-2 text-sm text-gray-700'
+                                    'block px-4 py-2 text-sm text-white'
                                   )}
                                 >
                                   Your Profile
@@ -141,7 +141,7 @@ const NavigationBar = () => {
                                   href="/"
                                   className={classNames(
                                     active ? 'bg-gray-100' : '',
-                                    'block px-4 py-2 text-sm text-gray-700'
+                                    'block px-4 py-2 text-sm text-white'
                                   )}
                                 >
                                   Settings
@@ -154,7 +154,7 @@ const NavigationBar = () => {
                                   href="/"
                                   className={classNames(
                                     active ? 'bg-gray-100' : '',
-                                    'block px-4 py-2 text-sm text-gray-700'
+                                    'block px-4 py-2 text-sm text-white'
                                   )}
                                 >
                                   Sign out
@@ -203,9 +203,9 @@ const NavigationBar = () => {
                 </div>
                 <div className="ml-3">
                   <div className="text-base font-medium text-white">Tom Cook</div>
-                  <div className="text-sm font-medium text-gray-400">tom@example.com</div>
+                  <div className="text-sm font-medium text-rose-50">tom@example.com</div>
                 </div>
-                <button className="ml-auto flex-shrink-0 bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                <button className="ml-auto flex-shrink-0 bg-rose-800 p-1 rounded-full text-gray-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                   <span className="sr-only">View notifications</span>
                   <BellIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
@@ -213,19 +213,19 @@ const NavigationBar = () => {
               <div className="mt-3 px-2 space-y-1">
                 <a
                   href="/"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-50 hover:text-white hover:bg-gray-700"
                 >
                   Your Profile
                 </a>
                 <a
                   href="/"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-50 hover:text-white hover:bg-gray-700"
                 >
                   Settings
                 </a>
                 <a
                   href="/"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-50 hover:text-white hover:bg-gray-700"
                 >
                   Sign out
                 </a>
