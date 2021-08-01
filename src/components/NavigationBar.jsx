@@ -11,12 +11,12 @@ const navigation = [
 ];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
+  return classes.filter(Boolean).join(' ');
 }
 
 const NavigationBar = () => {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-rose-600">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
@@ -47,7 +47,7 @@ const NavigationBar = () => {
                           item.current
                             ? "bg-rose-800 text-white"
                             : "text-white hover:bg-rose-200 hover:text-rose-800",
-                          "px-3 py-2 rounded-md text-md font-medium mr-5"
+                          "px-3 py-2 rounded-md text-sm font-medium mr-5"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -64,12 +64,12 @@ const NavigationBar = () => {
                   </label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <SearchIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
+                      <SearchIcon className="h-5 w-5 text-rose-700" aria-hidden="true" />
                     </div>
                     <input
                       id="search"
                       name="search"
-                      className="block w-full pl-10 pr-3 py-2 border border-transparent rounded-md leading-5 bg-gray-700 text-gray-300 placeholder-gray-400 focus:outline-none focus:bg-white focus:border-white focus:ring-white focus:text-gray-900 sm:text-sm"
+                      className="block w-full pl-10 pr-3 py-2 border border-none rounded-md leading-5 bg-white text-gray-300 placeholder-rose-700 focus:outline-none focus:bg-white focus:border-white focus:ring-white focus:text-gray-900 sm:text-sm"
                       placeholder="Search"
                       type="search"
                     />
@@ -89,7 +89,7 @@ const NavigationBar = () => {
               </div>
               <div className="hidden lg:block lg:ml-4">
                 <div className="flex items-center">
-                  <button className="flex-shrink-0 bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                  <button className="flex-shrink-0 bg-rose-800 p-1 rounded-full text-gray-50 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                     <span className="sr-only">View notifications</span>
                     <BellIcon className="h-6 w-6" aria-hidden="true" />
                   </button>
